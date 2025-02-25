@@ -149,6 +149,11 @@ Within the training loop, the following steps are executed:
 After training, a data point is sampled from an isotropic Gaussian distribution and then gradually reconstructed by applying the function *denoise_with_mu*. This function applies the neural network to the current data point xₜ, computes the distribution p₍θ₎(xₜ₋₁ | xₜ), and returns a less distorted data point xₜ₋₁ by sampling from that distribution.
 
 At each iteration, a plot of the data is generated and saved to build a GIF that visually represents the reconstruction process over time.
+<p align="center">
+  <img src="pika.png" alt="Descrizione" />
+</p>
+<p align="center">
+  <img src="output2.gif" alt="Diffusion Process" width=500 />
+</p>
 
-![A](output2.gif)
 
