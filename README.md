@@ -1,0 +1,2 @@
+# DDPM
+Bachelor thesis project
